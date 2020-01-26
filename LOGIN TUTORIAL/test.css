@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+
+a:hover{
+    text-decoration: none;
+    color:rgb(161, 54, 54);
+    
+}
+a{
+    color:rgba(221, 150, 92, 0.623);
+    text-decoration: none;
+}
+@media only screen and (min-width: 600px) {
+    body 
+{
+   
+    background-image: url("https://raw.githubusercontent.com/Subhash2807/test1/master/ocean.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+   
+}
+
+#sg1{
+    height: 500px;
+    width:400px;
+    background-color: rgba(14, 10, 78, 0.623);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 12px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ; 
+    border:5px solid rgba(14, 10, 78, 0.623);
+    box-shadow: 13px 13px 10px 10px rgba(14, 10, 78, 0.623);
+    
+}
+img{
+    height:100px;
+    border-radius:70px;
+    margin-top:10px;
+}
+input{
+    height:40px ;
+    width:300px;
+    background: transparent;
+    outline:0px;
+    border:0px;
+    border-bottom: 4px solid ;
+    border-bottom-color: rgba(2, 1, 14, 0.8);
+    text-align: center;
+    font-size:20px;
+    color:white;
+    opacity:0.75;
+}
+::placeholder{
+    text-align:center;
+    font-size:20px;
+    color:white;
+    
+
+}
+
+button {
+    height: 40px;
+    width:100px;
+    border-radius: 30px;
+    border:0px;
+    background-color: rgb(95, 184, 12);
+    box-shadow: 3px 2px;
+    outline:0px;
+}
+}
+@media only screen and (max-width: 600px) {
+    body 
+{
+   
+    background-image: url("https://raw.githubusercontent.com/Subhash2807/test1/master/ocean.1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+   
+}
+    
+#sg1{
+    height: 300px;
+    width:200px;
+    background-color: rgba(14, 10, 78, 0.623);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ; 
+    border:2.5px solid rgba(14, 10, 78, 0.623);
+    border-radius: 12px;
+    box-shadow: 7.5px 7.5px 7px 4px rgba(14, 10, 78, 0.623);
+    
+}
+img{
+    height:50px;
+    border-radius:35px;
+    margin-top:5px;
+}
+input{
+    height:20px ;
+    width:150px;
+    background: transparent;
+    outline:0px;
+    border:0px;
+    border-bottom: 4px solid ;
+    border-bottom-color: rgba(2, 1, 14, 0.8);
+    text-align: center;
+    font-size:10px;
+    color:white;
+    opacity:0.75;
+}
+::placeholder{
+    text-align:center;
+    font-size:10px;
+    color:white;
+    
+
+}
+
+button {
+    height: 20px;
+    width:50px;
+    border-radius: 30px;
+    border:0px;
+    background-color: rgb(95, 184, 12);
+    box-shadow: 3px 2px;
+    outline:0px;
+}
+h1{
+    font-size:20px
+}
+
+
+
+}

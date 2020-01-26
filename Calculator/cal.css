@@ -1,0 +1,154 @@
+*{padding:0px;
+    margin:0px}
+    
+    @media only screen and (min-width: 800px){
+    body { background-color:rgba(73, 99, 122, 0.8);}
+    .cal1 {
+        height:500px;
+        width:600px;
+        background-color:rgba(27, 32, 53, 0.609);
+        border-radius: 50px;
+        position :absolute;
+        /* right:50%; */
+        left:50%;
+        top:50%;
+        margin-top:-250px;
+        margin-left:-300px;
+        border:5px solid blue;
+        box-shadow:10px 10px 10px 10px rgba(73, 99, 122, 0.8);
+    }
+    
+    #cal2{
+        /* border: 30px; */
+        position:absolute;
+        top:10%;
+        left:10%;
+        height:50px;
+        width:450px;
+        font-size:30px;
+        border: 3px solid blue;
+        border-radius:10px;
+        text-align:right;
+        
+        
+        
+
+    }
+
+    h1{
+        font-size:60px;
+        color:rgb(6, 3, 46);
+        text-align:center;
+        margin-top:80px;
+        
+        
+    }
+    .number
+    {
+        height:60px;
+        width:85px;
+        font-size:30px;
+        background-color:rgb(84, 82, 194);
+        /* border-spacing: 20px; */
+        border:3px solid black;
+        color:whiite;
+        display:inline-block;
+        color:white;
+        border-radius: 5px;
+        
+        
+        
+        
+        
+    }
+    /* #enter{
+        height:6px;
+        width:170px;
+        position: absolute;
+        padding: 2px;
+    } */
+    #number{
+        padding:120px;
+    }
+    ::placeholder{
+        color:blue;
+        opacity:0.3;
+        text-align:center;
+    }
+}
+@media only screen and (max-width: 800px){
+    body { background-color:rgba(73, 99, 122, 0.8);}
+    .cal1 {
+        height:250px;
+        width:300px;
+        background-color:rgba(27, 32, 53, 0.609);
+        border-radius: 25px;
+        position :absolute;
+        /* right:50%; */
+        left:50%;
+        top:50%;
+        margin-top:-125px;
+        margin-left:-150px;
+        border:5px solid blue;
+        box-shadow:10px 10px 10px 10px rgba(73, 99, 122, 0.8);
+    }
+    
+    #cal2{
+        /* border: 30px; */
+        position:absolute;
+        top:10%;
+        left:10%;
+        height:25px;
+        width:225px;
+        font-size:15px;
+        border: 3px solid blue;
+        border-radius:10px;
+        text-align:right;
+        
+        
+        
+
+    }
+
+    h1{
+        font-size:30px;
+        color:rgb(6, 3, 46);
+        text-align:center;
+        margin-top:40px;
+        
+        
+    }
+    .number
+    {
+        height:30px;
+        width:42px;
+        font-size:15px;
+        background-color:rgb(84, 82, 194);
+        /* border-spacing: 20px; */
+        border:3px solid black;
+        color:whiite;
+        display:inline-block;
+        color:white;
+        border-radius: 5px;
+        
+        
+        
+        
+        
+    }
+    /* #enter{
+        height:6px;
+        width:170px;
+        position: absolute;
+        padding: 2px;
+    } */
+    #number{
+        padding:60px;
+    }
+    ::placeholder{
+        color:blue;
+        opacity:0.3;
+        text-align:center;
+    }
+}
+   

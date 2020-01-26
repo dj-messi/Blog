@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <title>test</title>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+<script>
+    var city1;
+    var link_api;
+    
+    function city(){
+        city1 = document.getElementById('input1').value;
+         link_api='http://api.openweathermap.org/data/2.5/weather?q='+ city1 +'&appid=e8cde246c8e175455f7354975fd34a4a';
+
+
+    
+
+fetch(link_api)
+  .then(
+    function(valu) {
+      if (valu.status !== 200) {
+        document.write('Looks like there was a problem. Status Code: ' +
+          valu.status);
+        return;
+      }
+
+      valu.json().then(function(data) {
+        // console.log(data);
+        document.write(data.weather[0].main)
+      });
+    }
+  )
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
+  });
+    }
+
+</script>
+        
+    </head>
+    <body>
+       <input type="text" id="input1">
+        <button id="city" onclick="city()">eneter</button>
+      
+    </body>
+</html>

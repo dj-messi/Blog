@@ -1,0 +1,31 @@
+.skill{
+    height:23rem;
+    width:40%;
+    box-shadow:  0 5px 8px 5px rgba(0,0,0,0.2);
+    
+    padding:2rem 2rem 2rem 2rem;
+    
+}
+.content{
+    height:23rem;
+    width:40%;
+    box-shadow: 0 5px 8px 5px rgba(0,0,0,0.2);
+    padding:2rem 2rem 2rem 2rem;
+    /* box-sizing: border-box; */
+    overflow:auto
+}
+#about{
+    padding-top:3rem;
+    font-family: 'Sulphur Point', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    font-size:1.3rem;
+    color:rgb(80, 70, 136)
+
+    }
+.skill:hover{
+    box-shadow: 0px 20px 25px 20px rgba(10, 10, 10, 0.2);
+}
+.content:hover{
+    box-shadow: 0px 20px 25px 20px rgba(10, 10, 10, 0.2);
+}

@@ -1,0 +1,52 @@
+.contact
+{
+  box-shadow: 0 5px 8px 5px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  position: absolute;
+  height:26rem;
+  width:65%;
+  top:8rem;
+  font-family: 'Satisfy', cursive;
+  color:rgb(80, 70, 136);
+  display:flex;
+  justify-content: space-evenly;
+ 
+}
+.contact:hover 
+{
+  box-shadow: 0px 20px 25px 20px rgba(10, 10, 10, 0.2);
+}
+.contact img{
+    height: 2rem;
+    width:2rem;
+}
+.contact ul{
+    list-style-type: none;
+    
+    
+}
+.contact p{
+    position:relative;
+    top:-4.0rem;
+    right:-3.9rem;
+    font-size:1.5rem;
+    
+     
+}
+.contact h1{
+    position: relative;
+    top:-3rem;
+}
+#contact{
+    padding-top:3rem;
+   
+}
+.intro li{
+    margin:-3rem;
+    margin-left:-7rem;
+    
+}
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+}
